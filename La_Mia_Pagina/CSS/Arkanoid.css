@@ -1,0 +1,91 @@
+.clr{
+  clear: both;
+}
+body{
+  background-color: #bdceff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,h2 {
+  padding-left: 1%;
+  margin-top: 0%;
+  background-color: #1b1344;
+  color: white;
+  border: solid 5px #1b1344 ;
+  border-radius: 2%;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 15%;
+  font-size: 26px;
+}
+
+p{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.center {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 45%;
+  }
+
+#Arkanoid_demo{
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 40%;
+    border: 12px solid rgb(54, 54, 54);
+  }
+  /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1b1344; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b8b8b8;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+.imageToZoom{
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 45%;
+}
+.imageToZoom a:hover{
+  width: 75%;
+  height: auto;
+}
+
+.logo{
+  float: right;
+  width: 7%;
+  height: auto;
+  margin-left: 93%;
+}

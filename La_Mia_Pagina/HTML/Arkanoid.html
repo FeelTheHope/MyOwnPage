@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Link to the CSS stylesheet -->
+        <link rel="stylesheet" href="../CSS/Arkanoid.css">
+
+        <title>Arkanoid</title>
+        
+        <img src="../assets/logo/Logo Matt.png" alt="logo" id="Logo" class="logo">
+        <div class="clr"></div>
+
+        <h1>Arkanoid</h1>
+         <!--image of the game-->
+         <img src="../assets/Arkanoid/immagini/arkanoid_demo.gif" alt="arkanoid demo" id="Arkanoid_demo">
+         <!--sidebar links-->
+         <div class="sidenav">
+            <a href="HomePage.html">Home</a>
+            <a href="Progetti.html">Progetti</a>
+            <a href="Contatti.html">Contatti</a>
+        </div>
+    </head>
+    <body>
+
+    <div>
+        <h1>
+            Sguardo generale
+        </h1>
+        <p>
+            Si tratta di un gioco arcade publicato nel 1986,il cui scopo consiste nel colpire il maggior numero di 
+            blocchi al di sopra del giocatore tramite una pallina in movimento. <br> 
+            Questa replica è stata realizzata come esercizio in collaborazione con un mio compagno di corso.
+            Il mio ruolo è stato curare il gameplay, cioè la logica dietro la creazione dei blocchi
+            colorati nella parte superiore dello schermo, il giocatore, 
+            ovvero il rettangolo in basso, e i movimenti della pallina, con i suoi vari rimbalzi
+            e la consecutiva distruzione dei blocchi.<br>
+            Un altro aspetto che ho curato è l'eventuale game over che appare in caso
+            il giocatore non riesca a prendere la palla e che determina la fine della partita.
+        </p>
+    </div>
+
+    <div>
+        <h1>
+            Guadagno personale
+        </h1>
+        <p>
+            Questo particolare esercizio è un mio personale preferito tra i vari progetti eseguiti
+            durante i tre anni ad AIV, grazie all' enorme quantitativo di esperienza che ha accompagnato
+            la sua creazione.<br>
+            In primis è stato il mio primo progetto non in solitaria portando con sè i primi apprendimenti, 
+            in seguito consolidati, su come gestire le varie  problematiche tipiche del lavoro in gruppo
+            (come gestione delle task, rispettare delle deadlines, tamponare e risolvere eventuali problemi che
+            nascono in questo tipo di situazioni,...).<br>
+            Un'altra skill di cui faccio tesoro da questo progetto è l'abilità di pensiero critico che mi 
+            permette di ricreare un videogioco solo dopo l'osservazione durante l'averlo giocato grazie 
+            un focus sul dettaglio, applicabile a qualsiasi altro contesto.<br>
+            La parte che però mi ha interessato e stimolato maggiormente è l'effettiva creazione delle interazioni
+            tra giocatore, pallina e blocchi da distruggere.
+        </p>
+    </div>
+
+    <div>
+        <h1>
+            Sguardo tecnico
+        </h1>
+        <p>
+            Di seguito sono mostrati alcuni script contenenti gli algoritmi per le principali 
+            funzionalità del gioco.
+        </p>
+        
+        <p>
+            Logica delle collisioni della pallina:
+        </p>
+        <img src="../assets/Arkanoid/immagini/ball_general_collision.png" alt="ball general collision" class="imageToZoom">
+        
+        <p>
+             Struct che dà la base ai blocchi da dover distruggere:
+        </p>
+        <img src="../assets/Arkanoid/immagini/Brick_struct.png" alt="Brick struct"class="imageToZoom">
+        
+        <p>
+            Algoritmo che monitora le collisioni avvenute:
+        </p>
+        <img src="../assets/Arkanoid/immagini/Check_collision_method.png" alt="Check collision method" class="imageToZoom">
+       
+        <p>
+            Algoritmo per la collisione e conseguente distruzione dei blocchi:
+        </p>
+        <img src="../assets/Arkanoid/immagini/collision_with_bricks_logic.png" alt="collision with bricks logic" class="imageToZoom">
+    </div>
+
+    </body>
